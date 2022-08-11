@@ -1,7 +1,8 @@
 p {
-  color: #5c2323;
-}
+  color: #5c2323; }
 
 h3 {
-  color: lavender;
-}
+  color: lavender; }
+
+* {
+  font-family: 'Noto Sans KR', sans-serif; }
