@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    box-sizing: border-box;
+        
+}
+
+html {
+    font-family: 'Noto Sans KR', sans-serif;
+    // html에 본문 폰트 사이즈에 패밀리를 보통 준다.
+
+}
+
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+h1 {
+    margin: 0;
+}
+
+
+a {
+    color: inherit;
+    // anchor에 속해있는 것의 값을 상속받겠다는 이야기
+    // ex) p태그 (파란색) 안에 감싸져있으면 a도 파란색
+    text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {    
+    background-color: transparent;
+    // 버튼이나 셀렉트 배경 삭제
+    border: 0;
+
+    &:focus {
+        outline: none;
+        box-shadow: 0;
+       
+       } 
+       // 포커스 했을 떄 생기는 더러운 것 없애는 방법
+}
+
+ 
+a,
+button {
+    cursor: pointer;
+}
+
+ul, ol {
+    padding-left: 0;
+    list-style: none;
+    
+}
