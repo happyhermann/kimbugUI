@@ -1,5 +1,8 @@
+@import './constants/colors';
+
+// 변수 선언하는 것은 최상위에 Import 함
 @import './base/fonts';
+@import './base/normalize';
+@import './base/reset.scss';
 
-// font.scss 임포트
 
-  
