@@ -1,13 +1,16 @@
 @import './constants/colors';
 @import './constants/typography';
+@import './constants/breakpoints';
 
 // 변수 선언하는 것은 최상위에 Import 함
-// @import './base/fonts';
-// @import './base/normalize';
-// @import './base/reset.scss';
+@import './base/fonts';
+@import './base/normalize';
+@import './base/reset.scss';
 
 @import './mixins/text-style';
 
-// @import './layouts/grids';
+@import './mixins/responsive';
+
+@import './layouts/grids';
 
  
